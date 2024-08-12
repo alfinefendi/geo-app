@@ -78,8 +78,31 @@ class HomescreenController extends Controller
 
         UserLocation::create($validatedData);
         return response()->json([
-            'message' => 'OK'
+            'message' => 'OK',
+            'data' => $validatedData
         ]);
         
     }
+
+    public function json(Request $request)
+    {
+        $data = UserLocation::latest()->get();
+        return response()->json([
+            'message' => 'OK',
+            'data' => $data
+        ]);
+        
+    }
+
+
+    public function history(Request $request)
+    {
+        $data = UserLocation::latest()->get();
+        return response()->json([
+            'message' => 'OK',
+            'data' => $data
+        ]);
+        
+    }
+    
 }
