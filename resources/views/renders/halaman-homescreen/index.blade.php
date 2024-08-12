@@ -18,7 +18,7 @@
             </li>
         </ul>
     <button id="submit-btn" class="bg-gray-200 px-3 py-1 mt-2 rounded-sm">Submit</button>
-    <p class="mt-2 text-green-400 hidden" id="greetings">Terimakasih atas partisipasinya ..</p>
+    <p class="mt-2 text-green-400 hidden" id="greetings">sekali lagi, saya ucapkan terimakasih.</p>
     </div>
  
     <script src="js/geo.js"></script>

@@ -39,6 +39,11 @@ if ('geolocation' in navigator) {
             if(json.message == 'OK') {
                 console.log(json);
                 greetings.classList.remove('hidden');
+                keterangan.value = '';
+                alert('terimakasih atas partisipasnya ..')
+                setTimeout(() => {
+                    greetings.classList.add('hidden');
+                }, 1000); // 2000 milliseconds = 2 seconds
             }
           
         })
