@@ -22,7 +22,7 @@ function renderMap(data) {
     // console.log(data[0]);
     const latitude = data[0].latitude;
     const longitude = data[0].longitude;
-    var map = L.map('map').setView([latitude, longitude],12);
+    var map = L.map('map').setView([latitude, longitude],11);
     for(let i = 0; i < data.length; i++) {
         console.log(data[i]);
         const latitude = data[i].latitude;
