@@ -17,6 +17,6 @@
 </head>
 <body>
     <div id='map' class="w-full h-screen"></div>
-    <script src="js/location.js"></script>
+    <script src="js/log-point.js"></script>
 </body>
 </html>

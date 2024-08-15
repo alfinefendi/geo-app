@@ -5,7 +5,7 @@ const getData = async ()  => {
             'Content-Type': 'application/json',
         },
     };  
-    const response = await fetch('/history', options);
+    const response = await fetch('/log-point-history', options);
     const json = await response.json();
     console.log(json.message);
     

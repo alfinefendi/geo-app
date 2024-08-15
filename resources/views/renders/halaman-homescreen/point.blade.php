@@ -31,6 +31,6 @@
     </div>
     <div id='map' class="w-full h-screen"></div>
    
-    <script src="js/api.js"></script>
+    <script src="js/log-point-api.js"></script>
 </body>
 </html>

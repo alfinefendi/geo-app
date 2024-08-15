@@ -32,7 +32,7 @@ if ('geolocation' in navigator) {
                     'keterangan' : keterangan.value
                 })
             };  
-            const response = await fetch('/api', options);
+            const response = await fetch('/log-point-api', options);
             const json = await response.json();
             console.log(json.message);
             
