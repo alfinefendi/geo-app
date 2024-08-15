@@ -46,7 +46,7 @@ function renderMap(data) {
             // var marker = L.marker([latitude, longitude]).addTo(map);
             // marker.bindPopup(`${keterangan}`);
             // marker.openPopup();
-            map.fitBounds(polyline.getBounds());
+            // map.fitBounds(polyline.getBounds());
     }
     console.log(latlngs);
 }
