@@ -14,7 +14,7 @@ Route::get('/line', function () {
 
 Route::post('/log-line-api', [HomescreenController::class, 'logLineApi']);
 Route::get('/log-line-raw', [HomescreenController::class, 'logLineRaw']);
-Route::post('/log-line-history', [HomescreenController::class, 'logLineHistory']);
+Route::get('/log-line-history', [HomescreenController::class, 'logLineHistory']);
 
 Route::get('/log-line', function () {
     return view('renders.halaman-homescreen.log-line');
